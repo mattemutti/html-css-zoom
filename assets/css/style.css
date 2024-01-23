@@ -1,4 +1,84 @@
 
-body{
-    background-color: red;
+/* #region rule for all___________________________________________________________________*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
 }
+
+:root{
+    --zoom-primary: #000000FF;
+    --zoom-secondary: #222222FF;
+    --zoom-lighter: #ffffffFF;
+    --zoom-success: #4bc800FF;
+}
+
+
+
+/* #endregion rule for all___________________________________________________________________*/
+
+
+/* #region Utility___________________________________________________________________*/
+
+
+.user-visual{
+    background-color: var(--zoom-primary);
+    height: 100vw;
+    position: relative;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+
+
+/* #endregion Utility___________________________________________________________________*/
+
+
+
+
+/* #region main___________________________________________________________________*/
+
+
+.full-screen{
+    color: var(--zoom-lighter);
+    padding: 0.5rem 0.5rem;
+    background-color: var(--zoom-secondary);
+    border-radius: 0.5rem;
+
+}
+
+.speaker-view{
+    color: var(--zoom-lighter);
+    padding: 0.5rem 0.5rem;
+    background-color: var(--zoom-secondary);
+    border-radius: 0.5rem;
+}
+
+.full-screen{
+    color: var(--zoom-lighter);
+    padding: 0.5rem 0.5rem;
+    background-color: var(--zoom-secondary);
+    border-radius: 0.5rem;
+
+}
+
+
+
+
+/* #endregion main___________________________________________________________________*/
