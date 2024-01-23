@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    border: 1px white dashed;
+
 }
 
 :root{
@@ -14,6 +14,7 @@
     --zoom-secondary: #222222FF;
     --zoom-lighter: #ffffffFF;
     --zoom-success: #4bc800FF;
+    --zoom-ligth: #4a4a4aFF;
 }
 
 
@@ -73,6 +74,20 @@
 
 .aligne-items-centre{
     align-items: center;
+}
+
+.text-success{
+    color: var(--zoom-success);
+}
+
+
+.text-size{
+    font-size: 16px;
+    color: var(--zoom-lighter);
+}
+
+.icon{
+    font-size: rem ;
 }
 
 /* #endregion Utility___________________________________________________________________*/
@@ -143,6 +158,7 @@
     align-items: center;
     position: relative;
     padding: 1rem;
+    background-color: var(--zoom-secondary);
 }
 
 .audio-video{
@@ -150,20 +166,28 @@
     left: 1rem;
     display: flex;
     gap: 1rem;
-    
+    text-align: center;   
  
 }
 
 .interaction{
-
-
+    text-align: center;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .end-call{
     position: absolute;
-    right: 2rem;
+    right: 0rem;
+    color: red;
+    background-color: var(--zoom-ligth) ;
+    padding: 1.5rem;
     
 }
+
+
+
+
 
 
 
