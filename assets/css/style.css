@@ -72,9 +72,6 @@
     border-radius: 0.2rem;
 }
 
-.aligne-items-centre{
-    align-items: center;
-}
 
 .text-success{
     color: var(--zoom-success);
@@ -87,8 +84,9 @@
 }
 
 .icon{
-    font-size: rem ;
+    font-size: 1rem ;
 }
+
 
 /* #endregion Utility___________________________________________________________________*/
 
