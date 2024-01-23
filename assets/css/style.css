@@ -71,6 +71,9 @@
     border-radius: 0.2rem;
 }
 
+.aligne-items-centre{
+    align-items: center;
+}
 
 /* #endregion Utility___________________________________________________________________*/
 
@@ -115,10 +118,13 @@
     width: 90%;
     display: flex;
     flex-wrap: wrap;
+    height: calc(100vh - 71px - 64px );
+    align-content: baseline;
     
 }
 .photo-user{
     padding: 0.5rem;
+    width: calc(100% / 7);
     
 }
 
@@ -126,3 +132,39 @@
 
 
 /* #endregion main___________________________________________________________________*/
+
+
+/* #region footer___________________________________________________________________*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.audio-video{
+    position: absolute;
+    left: 1rem;
+    display: flex;
+    gap: 1rem;
+    
+ 
+}
+
+.interaction{
+
+
+}
+
+.end-call{
+    position: absolute;
+    right: 2rem;
+    
+}
+
+
+
+
+/* #endregion footer___________________________________________________________________*/
