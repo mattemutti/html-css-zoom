@@ -31,7 +31,11 @@
     background-color: var(--zoom-primary);
     width: 100%;
     height: 100vh;
+}
+
+.overflow-main{
     overflow: hidden;
+    
 }
 
 
@@ -87,6 +91,9 @@
     font-size: 1rem ;
 }
 
+img{
+    width: 100%;
+}
 
 /* #endregion Utility___________________________________________________________________*/
 
